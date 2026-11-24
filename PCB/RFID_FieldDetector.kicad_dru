@@ -1,0 +1,9 @@
+(version 1)
+
+# The coil footprints (L1, L2) are net-tie footprints: their spiral copper is
+# footprint graphics that intentionally lands on the layer-change via (pad 3).
+# That contact is the connection, so hole-to-copper clearance is meaningless
+# inside those footprints.
+(rule "coil_layer_change_via"
+	(condition "A.memberOfFootprint('L*') && B.memberOfFootprint('L*')")
+	(constraint hole_clearance (min 0mm)))

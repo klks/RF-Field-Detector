@@ -1,0 +1,12 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,0805,1,15nF C0G,
+C2,0805,1,2.2nF C0G,
+C4,0805,1,150pF C0G,
+C5,0805,1,10pF C0G,
+C7,0805,1,22pF C0G,
+C8,0805,1,100pF C0G,
+D1,0805,1,LED amber,"Kingbright APT2012SECK (orange 601 nm, Vf~2.0 V)"
+D2,0805,1,LED green,"Kingbright APT2012SGC (green 568 nm, Vf~2.2 V)"
+D3,SC-59_Handsoldering,1,1SS351-TB-E,onsemi 1SS351-TB-E (SC-59)
+D4,0805,1,LED red,"Kingbright APT2012SURCK (hyper red 630 nm, Vf~1.95 V)"
+"R1, R2, R3",0805,3,47R,
